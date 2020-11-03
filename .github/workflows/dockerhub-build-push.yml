@@ -26,7 +26,7 @@ jobs:
               $HOME/docker
           cd $HOME/docker
           BRANCH=${GITHUB_REF##*/}
-          ./build.sh -s batch-submitter -b $BRANCH
+          ./build.sh -s hardhat -b $BRANCH
           if [ $BRANCH == 'master' ]; then
               docker push ethereumoptimism/hardhat:latest
           fi
