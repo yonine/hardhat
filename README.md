@@ -1,15 +1,12 @@
 # Hardhat Node
 
+Hardhat config for running a hardhat node.
+
 ## Usage
 
 ```sh
-git clone https://github.com/ethereum-optimism/hardhat-hackathon-boilerplate.git
-cd hardhat-hackathon-boilerplate
-npm install
-```
-
-Once installed, let's run Hardhat's testing network:
-
-```sh
-npx hardhat node
+$ git clone https://github.com/ethereum-optimism/hardhat.git
+$ cd hardhat
+$ npm install
+$ npx hardhat node
 ```

@@ -20,7 +20,7 @@ jobs:
       - name: Login to DockerHub Registry
         run: echo ${{ secrets.DOCKERHUB_ACCESS_TOKEN_SECRET }} | docker login -u ${{ secrets.DOCKERHUB_ACCESS_TOKEN_USERNAME}} --password-stdin
 
-      - name: Build and push Rollup Services image to DockerHub
+      - name: Build and push Hardhat image to DockerHub
         run: |
           git clone https://github.com/ethereum-optimism/docker.git \
               $HOME/docker
