@@ -14,7 +14,7 @@ module.exports = {
         path: hdnode.defaultPath,
         count: 5,
         gasPrice: 0,
-        gasLimit: 0x1fffffffffffff,
+        blockGasLimit: 0x1fffffffffffff,
       }
     }
   }
