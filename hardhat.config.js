@@ -13,9 +13,9 @@ module.exports = {
         mnemonic,
         path: hdnode.defaultPath,
         count: 5,
-        gasPrice: 0,
-        blockGasLimit: 100000000,
-      }
+      },
+      gasPrice: 0,
+      blockGasLimit: 100000000,
     }
   }
 };
